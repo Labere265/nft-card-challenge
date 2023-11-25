@@ -1,0 +1,126 @@
+* {
+		box-sizing: border-box;
+}
+ body{
+	 background:hsl(217, 54%, 11%);
+ }
+@font-face {
+	font-family: myFont;
+	src:url("Outfit-Bold.ttf");
+}
+@font-face {
+	font-family: myFontRegular;
+	src:url("Outfit-Regular.ttf");
+}
+@font-face {
+	font-family: myFontLight;
+	src:url("Outfit-Light.ttf");
+}
+ .container{
+	 background:hsl(216, 50%, 16%);
+	 margin:0 auto;
+	 width: 360px;
+	 padding: 18px;
+	 text-align: left;
+	 border-radius:20px;
+ }
+ .up-pic {
+	 position: relative;
+	 max-width: 100%;
+ }
+ #image1 {
+	 max-width: 100%;
+	height: auto;
+	/* margin:0 auto; */
+	border-radius:9px;
+ }
+ .container h2{
+	 color:hsl(0, 0%, 100%);
+	 font-family: myFontRegular;
+	 font-weight: 600;
+ }
+ #paragraph{
+	 color: hsl(215, 51%, 70%);
+	 font-size: 18px;
+	 font-family: myFontRegular;
+	 font-weight: 400;
+ }
+ .wording{
+	 /*display: inline;*/
+ }
+.wording #word1{
+	 float: left;
+	 color: hsl(178, 100%, 50%);
+	 font-family: myFontRegular;
+	 font-weight: 400;
+ }
+.wording #word2{
+	float: right;
+	color: hsl(215, 51%, 70%);
+	font-family: myFontRegular;
+	font-weight: 400;
+} 
+hr{
+	color: hsl(215, 32%, 27%);
+}
+#avatar{
+	border: 2px solid white;
+	border-radius:50%;
+	width: 40px;
+}
+.image-container{
+	display: flex;
+	margin-bottom: 9px;
+	margin-top: 14px;
+}
+.dowm{
+	text-align: center;
+	padding: 0px;
+	margin:0px;
+	margin-left: 17px;
+	margin-top: 13px;
+	color: hsl(0, 0%, 100%) ;/* white*/
+	font-size: 18px;
+	font-family: myFontRegular;
+}
+.dowm span{
+	color: hsl(215, 51%, 70%);
+}
+.container h2:hover{
+	color:hsl(178, 100%, 50%);
+	cursor: pointer;
+}
+.dowm:hover{
+	color: hsl(178, 100%, 50%);
+	cursor: pointer;
+}
+#activePic {
+	 background: hsl(178, 100%, 50%);
+	 position: absolute;
+	 width: 100%;
+	 top: 2px;
+	 height:323px;
+	 opacity: 0;
+	 border-radius:9px;
+ }
+#view{
+	 opacity:1;
+	 position: absolute;
+	 bottom: 140px;
+	 left:140px;
+}
+#activePic:hover{
+	 opacity:0.6;
+ }
+ #view:hover{
+	 opacity: 1;
+ }
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+	font-family: myFont;
+	color: white;
+}
+.attribution a { 
+	color: hsl(228, 45%, 44%);
+}
